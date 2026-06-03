@@ -853,7 +853,7 @@ async def moderate_accept(callback: CallbackQuery):
         f"🆔 ID: {scammer_id}\n"
         f"📅 Дата: {now}\n\n"
         f"📄 Причина:\n{reason}\n\n"
-        f"⚠️ ОСТЕРЕГАЙТЕСЬ! Проверяйте всех через @MintBaseBot"
+        f"⚠️ ОСТЕРЕГАЙТЕСЬ! Проверяйте всех через @scambasemintbot"
     )
 
     admin_message_id = callback.message.message_id
